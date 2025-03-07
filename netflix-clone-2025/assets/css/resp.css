@@ -1,0 +1,368 @@
+@media(max-width:1440px){
+    .card1 {
+        width: 113px;
+        position: relative;
+    }
+    .top-slider .card-body {
+        position: absolute;
+        left: -91px;
+        top: -53px;
+        display: flex;
+        z-index: -1;
+    }
+    .top-slider1 .card-body {
+        position: absolute;
+        left: -91px;
+        top: -53px;
+        display: flex;
+        z-index: -1;
+    }
+    .top-slider .card-body h1 {
+        color: black;
+        font-size: 209px;
+        margin: 0;
+        font-weight: 800;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: gray;
+    }
+    .top-slider1 .card-body h1 {
+        color: black;
+        font-size: 209px;
+        margin: 0;
+        font-weight: 800;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: gray;
+    }
+
+}
+
+@media(max-width:1024px){
+    .n-nav button{
+        font-size: 10px;
+        margin-right: 8px;
+    }
+    .btn1{
+        height: 36px;
+        font-size: 14px;
+        padding: 0px 20px 0px 15px;
+    }
+    .btn2{
+        height: 36px;
+        font-size: 14px;
+        
+    }
+    .bi-play-fill{
+        font-size: 31px;
+        margin-right: 0px;
+    }
+    .content{
+        top: 5%;
+    } 
+    .content2{
+        margin-top: 0;
+    }
+    .bi-info-circle {
+        padding: 0;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .content img{
+        width: 300px;
+        animation-name: size;
+    }
+    @keyframes size{
+        0%{
+          width: 400px;
+    
+        }
+        100%{
+            width: 250px;
+            
+        }
+    }
+    @keyframes position {
+        0% {
+          top: 20%;
+        }
+        100% {
+          top: 20%;
+        }
+
+}
+
+
+@media(max-width:884px){
+   
+    .npadding-left{
+        padding-left: 10px !important;
+    }
+    .npadding-right{
+        padding-right: 10px !important;
+    }
+    .left img{
+        /* width: 43px; */
+    }
+    .netflix-navbar .navbar-brand{
+        width:120px;
+        margin-right: 0px;
+    }
+    .ndropdown-box{
+        display: block !important;
+    }
+    .n-nav{
+        display: none !important;
+    }
+    i{
+        font-size: 12px;
+        cursor: pointer;
+        padding: 5px !important;
+    }
+    .n-profile{
+        margin-left: 5px !important;
+    }
+    .content {
+        position: absolute;
+        top: 10%;
+        left: 26px;
+        right: 0px;
+    }
+    .content img{
+        width: 200px;
+    }
+    .h-para{
+        display: none;
+    }
+    .icon-l {
+        position: absolute;
+        top: 2px;
+        right: -22px;
+        transition: 0.2s ease;
+    }
+    .btn1{
+        padding: 0px 14px 0px 2px;
+        height: 26px;
+        font-size: 10px;
+        margin-right: 5px;
+
+    }
+    .btn2{
+        padding: 0px 14px 0px 2px;
+        height: 26px;
+        font-size: 10px;
+    }
+    .bi-play-fill {
+        font-size: 26px;
+        margin-right: 0px;
+    }
+    .bi-info-circle {
+        padding: 0;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .age-p {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-right: 27px;
+        border-left: 3px solid #fff;
+        height: 22px;
+        font-size: 10px;
+        color: #fff;
+        font-weight: 500;
+        padding-left: 11px;
+        display: flex;
+        align-items: center;
+    }
+    .bi-volume-mute {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .content img{
+        width: 250px;
+        animation-name: size;
+    }
+    @keyframes size{
+        0%{
+          width: 250px;
+    
+        }
+        100%{
+            width: 200px;
+            
+        }
+    }
+    .card{
+        width: 150px;
+    }
+  
+    .card-icon{
+        font-size: 17px !important;
+    }
+    .slider1{
+        top: 250px;
+        margin-left: 0px;
+    }
+}
+@media(max-width:768px){
+    .top-slider{
+        bottom: -84px;
+        left: 20px;
+    }
+    .top-slider1{
+        
+        margin-left: 20px;
+    }
+    
+    .slider{
+        margin-left: 20px;
+    }
+
+}
+@media(max-width:425px){
+    .netflix-navbar .navbar-brand {
+        width: 67px;
+        margin-right: 10px;
+    }
+    .netflix-navbar {
+        position: fixed;
+        width: 100%;
+        height: 42px;
+        z-index: 1000;
+        padding: 0px;
+        /* padding-top: 4px; */
+        transition: background 0.2s linear;
+        /* background-color: black; */
+    }
+    .n-dropdown {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 10px;
+    }
+    .content img{
+        width: 200px;
+        animation-name: size;
+    }
+    @keyframes size{
+        0%{
+          width: 200px;
+    
+        }
+        100%{
+            width: 100px;
+            
+        }
+    }
+    .content2 {
+        display: flex
+    ;
+        margin-top: 0px;
+        /* width: 100%; */
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn1{
+        padding: 0px 9px 0px 2px;
+        height: 21px;
+        font-size: 8px;
+        margin-right: 5px;
+
+    }
+    .btn2{
+        padding: 0px 9px 0px 2px;
+        height: 21px;
+        font-size: 8px;
+        margin-right: 5px;
+
+    }
+    .bi-info-circle{
+        margin-right: 0;
+    }
+    .bi-play-fill {
+        font-size: 19px;
+        
+    }
+    .card1{
+        width: 88px;
+    }
+    .top-slider .card-body h1{
+        font-size: 169px;
+    }
+    .top-slider .card-body {
+        position: absolute;
+        left: -73px;
+        top: -44px;
+        display: flex;
+        z-index: -1;
+    }
+    .top-slider1 .card-body h1{
+        font-size: 169px;
+    }
+    .top-slider1 .card-body {
+        position: absolute;
+        left: -73px;
+        top: -44px;
+        display: flex;
+        z-index: -1;
+    }
+    .top-slider .swiper-wrapper {
+        margin-left: 26px;
+        padding-top: 10px;
+    }
+    .top-slider1 .swiper-wrapper {
+        margin-left: 26px;
+        padding-top: 10px;
+    }
+    .top-slider {
+        bottom: -131px;
+    }
+    .hero{
+        margin-bottom: 137px;
+    }
+
+    .top-slider h3 {
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 0.9em;
+    }
+    .top-slider1 h3 {
+        margin-left: 20px;
+        
+        font-size: 0.9em;
+    }
+    h3{
+        font-size: 0.9em;
+    }
+}
+}
+
+@media(max-width:320px){
+    .top-slider .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: transparent;
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s linear;
+        margin-right: 23px !important;
+    }
+    .top-slider1 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: transparent;
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s linear;
+        margin-right: 23px !important;
+    }
+    .top-slider .swiper-wrapper {
+        margin-left: 32px;
+        padding-top: 10px;
+    }
+    .top-slider1 .swiper-wrapper {
+        margin-left: 32px;
+        padding-top: 10px;
+    }
+}
